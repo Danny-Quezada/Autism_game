@@ -1,7 +1,7 @@
-class AutismWordGame{
+class AutismWordGame {
   String word;
   String imageUrl;
-  bool completed;
+  bool? completed;
 
-  AutismWordGame({required this.word, required this.imageUrl, this.completed=false});
+  AutismWordGame({required this.word, required this.imageUrl, this.completed});
 }

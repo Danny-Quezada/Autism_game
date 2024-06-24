@@ -1,7 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+            <queries>
+                <intent>
+                    <action android:name="android.intent.action.TTS_SERVICE" />
+                </intent>
+            </queries>
     <application
         android:label="autism_test_drag_drop"
-        android:name="${applicationName}"
+        android:name="Autism Game"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -29,5 +34,6 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        
     </application>
 </manifest>

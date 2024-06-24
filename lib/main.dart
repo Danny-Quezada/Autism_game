@@ -9,7 +9,9 @@ void main(List<String> args) {
     child: MaterialApp(
       initialRoute: "/",
       routes: {'/': (_) =>  AutismPageGame()},
+    
       theme: ThemeData(
+        scaffoldBackgroundColor:  Colors.white,
           fontFamily: "Rubik",
            primarySwatch: Colors.blue,
          primaryColor: Colors.blue)
